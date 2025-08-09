@@ -14,3 +14,7 @@ const obtenerCargoFijo = function() {
 const obtenerPorcentajeIva = function() {
   return 19;
 };
+
+const calcularSubtotal = () => {
+  return obtenerConsumoMensual() * obtenerTarifaBase();
+};
