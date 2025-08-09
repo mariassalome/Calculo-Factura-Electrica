@@ -37,3 +37,5 @@ function mostrarFactura() {
   console.log("Cargo fijo por servicio: $" + obtenerCargoFijo());
   console.log("Total a pagar: $" + calcularTotal());
 }
+
+mostrarFactura();
