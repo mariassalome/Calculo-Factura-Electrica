@@ -22,3 +22,7 @@ const calcularSubtotal = () => {
 const calcularIva = () => {
   return (calcularSubtotal() * obtenerPorcentajeIva()) / 100;
 };
+
+const calcularTotal = () => {
+  return calcularSubtotal() + calcularIva() + obtenerCargoFijo();
+};
