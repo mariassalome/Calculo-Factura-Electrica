@@ -10,3 +10,7 @@ function obtenerTarifaBase() {
 const obtenerCargoFijo = function() {
   return 3500;
 }; 
+
+const obtenerPorcentajeIva = function() {
+  return 19;
+};
