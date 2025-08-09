@@ -18,3 +18,7 @@ const obtenerPorcentajeIva = function() {
 const calcularSubtotal = () => {
   return obtenerConsumoMensual() * obtenerTarifaBase();
 };
+
+const calcularIva = () => {
+  return (calcularSubtotal() * obtenerPorcentajeIva()) / 100;
+};
