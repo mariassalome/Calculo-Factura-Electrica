@@ -6,3 +6,7 @@ function obtenerConsumoMensual() {
 function obtenerTarifaBase() {
   return 620;
 }
+
+const obtenerCargoFijo = function() {
+  return 3500;
+}; 
